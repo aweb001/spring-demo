@@ -1,0 +1,9 @@
+#  设置服务名
+spring:
+  application:
+    name: order-service
+#  设置注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
